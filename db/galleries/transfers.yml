@@ -1,0 +1,55 @@
+- name: automation.jpg
+  title: Automation
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: exhaustpossibilities.jpg
+  title: Exhaust Possibilities
+  year: 2006
+  size:
+  medium: Transfer and Watercolor Pencil
+  info:
+  default: true
+- name: cogenerationplant.jpg
+  title: Cogeneration Plant
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: industrialdevelopment.jpg
+  title: Industrial Development
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: pipelinerefineries.jpg
+  title: Pipeline Refineries
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: powerhorizon.jpg
+  title: Power Horizon
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: scienceofaneweconomy.jpg
+  title: Science of a New Economy
+  year: 2006
+  size:
+  medium: Transfer and Charcoal
+  info:
+- name: baltimorepanoramictransfer.jpg
+  title: Baltimore Panoramic Transfer
+  year: 2006
+  size:
+  medium: xerox transfer
+  info:
+- name: minimaltransfer.jpg
+  title: Minimal Transfer
+  year: 2006
+  size:
+  medium: xerox transfer
+  info:

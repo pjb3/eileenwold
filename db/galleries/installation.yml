@@ -1,0 +1,61 @@
+- name: galleryinstallation.jpg
+  title: Gallery Installation
+  year: 2007
+  size:
+  medium: photo crops and solar panel bulb
+  info:
+  default: true
+- name: cropgallerybench.jpg
+  title: Photo Crop Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: cropgallerywall2.jpg
+  title: Photo Crop Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: cropinsidecornerverticle.jpg
+  title: Photo Crop Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: cropdetail.jpg
+  title: Photo Crop Detail
+  year: 2007
+  size:
+  medium:
+  info:
+- name: cropdetailthree.jpg
+  title: Photo Crop Detail
+  year: 2007
+  size:
+  medium:
+  info:
+- name: solargallerybulb.jpg
+  title: Solar Panel Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: solargallerypanels.jpg
+  title: Solar Panel Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: solargallerytable.jpg
+  title: Solar Panel Installation View
+  year: 2007
+  size:
+  medium:
+  info:
+- name: solargallerywindowwires.jpg
+  title: Solar Panel Installation View
+  year: 2007
+  size:
+  medium:
+  info:

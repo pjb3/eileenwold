@@ -1,0 +1,20 @@
+<%= render "layouts/header" %>
+
+<table border="0" cellspacing="0" cellpadding="40" align="center">
+  <% @galleries.each_with_index do |gallery, i| %>
+    <% if i.zero? %>
+      <tr>
+    <% elsif i%4 == 0 %>
+		  </tr><tr>
+    <% end %>
+			<td align="center" valign="top" class="thumb">
+        <%= link_to gallery_path(gallery.name), title: gallery.default_picture.title do %>
+          <%= image_tag gallery.default_picture.image_path(:small), alt: gallery.default_picture.title, title: gallery.default_picture.title, border: 0 %>
+          <br />
+          <strong><%= gallery.title %></strong>
+        <% end %>
+			</td>
+  <% end %>
+		</tr>
+	</table>
+<%= render "layouts/footer" %>

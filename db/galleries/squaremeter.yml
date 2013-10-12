@@ -1,0 +1,37 @@
+- name: bulldozer.jpg
+  title: Bulldozer
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:
+  default: true
+- name: forest.jpg
+  title: Forest
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:
+- name: parkinglot.jpg
+  title: Parking Lot
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:
+- name: industrial.jpg
+  title: Industry
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:
+- name: gaspump.jpg
+  title: Gas Pump
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:
+- name: field.jpg
+  title: Field
+  year: 2009
+  size:
+  medium: Digital SLR Photograph of Square Meter Project
+  info:

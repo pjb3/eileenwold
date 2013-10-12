@@ -1,0 +1,22 @@
+<%= render "layouts/header" %>
+
+  <h2><%= @gallery.title %></h2>
+
+	<table border="0" cellspacing="0" cellpadding="20" align="center">
+    <% @gallery.pictures.each_with_index do |picture, i| %>
+      <% if i.zero? %>
+        <tr>
+      <% elsif i%5 == 0 %>
+			  </tr><tr>
+      <% end %>
+			<td align="center" valign="top" class="thumb">
+			  <a title="<%= picture.caption %>" href="<%= picture.image_path(:large) %>" rel="lightbox[gallery]" >
+          <%= image_tag picture.image_path(:small), alt: picture.title, title: picture.title, border: 0 %>
+          <br />
+          <strong><%= picture.title %></strong>
+        </a>
+			</td>
+    <% end %>
+		</tr>
+	</table>
+<%= render "layouts/footer" %>
