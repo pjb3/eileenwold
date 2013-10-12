@@ -1,0 +1,45 @@
+<% content_for :html_head do %>
+  <style type="text/css">
+    .style3 {
+      color: #383740;
+      font-weight: bold;
+    }
+
+    .style4 {
+      color: #383740;
+      font-size: 16px;
+    }
+
+    .style5 {
+      color: #FFFFFF
+    }
+  </style>
+<% end %>
+
+<table border="0" cellspacing="0" cellpadding="0" width="800" align="center">
+  <tr>
+    <td colspan="6" class="content" valign="top">
+      <%= render "layouts/header" %>
+        <table border="0" cellspacing="0" cellpadding="10" width="100%">
+          <tr>
+            <td valign="top" width="194">
+              <div align="right"><br /></div>
+              <p align="right"><a href="galleries.php">GALLERY</a></p>
+              <p align="right"><a href="resume.php">RESUME</a></p>
+							<p align="right"><a href="artiststatement.php">ARTIST STATEMENT</a></p>
+              <p align="right"><a href="contact.php">CONTACT / PRESS</a></p>
+							<p align="right"><a href="http://www.eileenwold.blogspot.com/">BLOG</a></p>
+            </td>
+            <td width="368" valign="top" style="padding-right: 30px">
+              <div id="blog">
+                <div align="center"><img src="images/galleries/smokestacks/large/smokestacknight.jpg" width="255" height="247" align="right" /></div>
+              </div>
+            </td>
+            <td valign="top" width="200"><div id="now"><br />
+              <img src="images/galleries/transfers/wide/scienceofaneweconomy.jpg" width="150" height="100" />
+              <p><img src="images/galleries/transfers/wide/industrialdevelopment.jpg" width="150" height="100" /></p>
+              <p>&nbsp;</p>
+            </div></td>
+          </tr>
+        </table>
+      <%= render "layouts/footer" %>
