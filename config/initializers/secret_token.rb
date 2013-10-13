@@ -9,4 +9,8 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Eileenwold::Application.config.secret_key_base = 'aec500282321d946cfe9867bb928afc5a65b6439444cdf0e0f913daa49de11f4129d0c59f367cd0334db2c69a2156fca50c55eb291f868115d90a33e6fa2864a'
+Eileenwold::Application.config.secret_key_base = if Rails.env.development? or Rails.env.test?
+  ('x' * 30) # meets minimum requirement of 30 chars long
+else
+  ENV['SECRET_TOKEN']
+end
