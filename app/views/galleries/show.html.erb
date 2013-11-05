@@ -1,22 +1,50 @@
 <%= render "layouts/header" %>
 
-  <h2><%= @gallery.title %></h2>
+  <h2>
+    <%= link_to "Projects", galleries_path %>
+    <span style="font-size: 12p; font-weight: normal">&gt;</span>
+    <%= @gallery.title %>
+  </h2>
 
-	<table border="0" cellspacing="0" cellpadding="20" align="center">
+  <table border="0" cellspacing="0" cellpadding="20" align="center">
+    <tr>
+      <td width="50%" valign="top">
+        <p style="font-weight: normal; margin-top: 0; font-size: 12px"><%= @gallery.description %></p>
+      </td>
+      <td width="50%" valign="top">
+        <% case @gallery.name %>
+        <% when "empty_waters" %>
+          <div style="text-align: center">
+            <iframe src="http://player.vimeo.com/video/20146296?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="400" height="225" frameborder="0"></iframe>
+          </div>
+        <% when "west_virginia" %>
+          <div style="text-align: center">
+            <iframe src="http://player.vimeo.com/video/20153256?title=0&amp;byline=0&amp;portrait=0&amp;autoplay=1&amp;loop=1" width="333" height="250" frameborder="0"></iframe>
+          </div>
+        <% when "squaremeter" %>
+          <img src="/images/square_meter_installation.jpg" width="400" alt="Square Meter Project" />
+        <% when "digitalcrops" %>
+          <img src="/images/galleries/digitalcrops/install.jpg" width="400" alt="Blocked Out" />
+        <% end %>
+      </td>
+    </tr>
+  </table>
+
+  <table border="0" cellspacing="0" cellpadding="20" align="center">
     <% @gallery.pictures.each_with_index do |picture, i| %>
       <% if i.zero? %>
         <tr>
       <% elsif i%5 == 0 %>
-			  </tr><tr>
+        </tr><tr>
       <% end %>
-			<td align="center" valign="top" class="thumb">
-			  <a title="<%= picture.caption %>" href="<%= picture.image_path(:large) %>" rel="lightbox[gallery]" >
+      <td align="center" valign="top" class="thumb">
+        <a title="<%= picture.caption %>" href="<%= picture.image_path(:large) %>" rel="lightbox[gallery]" >
           <%= image_tag picture.image_path(:small), alt: picture.title, title: picture.title, border: 0 %>
           <br />
           <strong><%= picture.title %></strong>
         </a>
-			</td>
+      </td>
     <% end %>
-		</tr>
-	</table>
+    </tr>
+  </table>
 <%= render "layouts/footer" %>

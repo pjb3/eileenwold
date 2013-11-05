@@ -1,0 +1,61 @@
+- name: coal_river_mt.jpg
+  title: Coal River Mountain
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: reclaimed.jpg
+  title: Reclaimed
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: removal.jpg
+  title: Removal
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: underground.jpg
+  title: Underground Mine
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: drawing.jpg
+  title: Removal Drawing
+  year: 2010
+  size:
+  medium: graphite on paper
+  info:
+- name: install_video.jpg
+  title: Pax and Baltimore Coal Terminal
+  year: 2010
+  size:
+  medium: Installation shot of Pax and Baltimore Coal Terminal Videos
+  info:
+- name: install_videos.jpg
+  title: Pax and Baltimore Coal Terminal
+  year: 2010
+  size:
+  medium: Installation shot of Pax and Baltimore Coal Terminal Videos
+  info:
+  default: true
+- name: photo_loadingline.jpg
+  title: Loading Line
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: photo_minedrain.jpg
+  title: Mine Drain
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:
+- name: photo_surfacemine.jpg
+  title: Surface Mine
+  year: 2010
+  size:
+  medium: Digital SLR Photograph
+  info:

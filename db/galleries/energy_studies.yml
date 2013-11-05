@@ -1,0 +1,61 @@
+- name: drawingroom.jpg
+  title: Six Month Energy Study
+  year: 2010
+  size:
+  medium: Pencil on recycled paper
+  info:
+- name: fanbearer_one.jpg
+  title: Fan bearer
+  year: 2010
+  size:
+  medium: Solar panel, small motor, rakes with bamboo and recycled wax paper
+  info:
+- name: fanbearer_two.jpg
+  title: Fan bearer
+  year: 2010
+  size:
+  medium: Solar panel, small motor, rakes with bamboo and recycled wax paper
+  info:
+  default: true
+- name: rain.jpg
+  title: Rain Energy Study
+  year: 2009
+  size:
+  medium: 'Drawing: pencil on paper, Sculpture: umbrella, tubes, manipulated wheel'
+  info:
+- name: solar_cards.jpg
+  title: Solar Panel Study
+  year: 2007
+  size:
+  medium: Solar panels, 50 feet of wire and small led bulb
+  info:
+- name: solar_nyc.jpg
+  title: Solar Study NYC
+  year: 2007
+  size:
+  medium: Solar panels and small led bulb
+  info:
+- name: tomato_garden.jpg
+  title: Tomato Garden Energy Installation
+  year: 2010
+  size:
+  medium: Heirloom tomato seeds, brick, soil, reclaimed wood
+  info:
+- name: windpower.jpg
+  title: Wind Power Distribution Study
+  year: 2009
+  size:
+  medium: pinwheels, tube, string
+  info:
+- name: windpower_detail.jpg
+  title: Wind Power Distribution Study
+  year: 2009
+  size:
+  medium: pinwheels, tube, string
+  info:
+- name: wind_machine.jpg
+  title: Wind Power Study
+  year: 2008
+  size:
+  medium: wood, metal, wires and bulb
+  info:
